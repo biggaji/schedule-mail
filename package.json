@@ -1,0 +1,11 @@
+{
+  "name": "schedule-pay",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/biggaji/schedule-pay.git",
+  "author": "biggaji <herityjohnny14@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cron": "^1.8.2"
+  }
+}
