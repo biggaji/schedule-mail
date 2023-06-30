@@ -6,6 +6,7 @@
   "author": "biggaji <herityjohnny14@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "amqplib": "^0.10.3",
     "node-cron": "^3.0.2",
     "nodemailer": "^6.9.3"
   },
