@@ -2,21 +2,24 @@
 # yarn lockfile v1
 
 
-cron@^1.8.2:
-  version "1.8.2"
-  resolved "https://registry.yarnpkg.com/cron/-/cron-1.8.2.tgz#4ac5e3c55ba8c163d84f3407bde94632da8370ce"
-  integrity sha512-Gk2c4y6xKEO8FSAUTklqtfSr7oTq0CiPQeLBG5Fl0qoXpZyMcj1SG59YL+hqq04bu6/IuEA7lMkYDAplQNKkyg==
-  dependencies:
-    moment-timezone "^0.5.x"
+dotenv@^16.3.1:
+  version "16.3.1"
+  resolved "https://registry.yarnpkg.com/dotenv/-/dotenv-16.3.1.tgz#369034de7d7e5b120972693352a3bf112172cc3e"
+  integrity sha512-IPzF4w4/Rd94bA9imS68tZBaYyBWSCE47V1RGuMrB94iyTOIEwRmVL2x/4An+6mETpLrKJ5hQkB8W4kFAadeIQ==
 
-moment-timezone@^0.5.x:
-  version "0.5.34"
-  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.34.tgz#a75938f7476b88f155d3504a9343f7519d9a405c"
-  integrity sha512-3zAEHh2hKUs3EXLESx/wsgw6IQdusOT8Bxm3D9UrHPQR7zlMmzwybC8zHEM1tQ4LJwP7fcxrWr8tuBg05fFCbg==
+node-cron@^3.0.2:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/node-cron/-/node-cron-3.0.2.tgz#bb0681342bd2dfb568f28e464031280e7f06bd01"
+  integrity sha512-iP8l0yGlNpE0e6q1o185yOApANRe47UPbLf4YxfbiNHt/RU5eBcGB/e0oudruheSf+LQeDMezqC5BVAb5wwRcQ==
   dependencies:
-    moment ">= 2.9.0"
+    uuid "8.3.2"
 
-"moment@>= 2.9.0":
-  version "2.29.1"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
-  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+nodemailer@^6.9.3:
+  version "6.9.3"
+  resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.9.3.tgz#e4425b85f05d83c43c5cd81bf84ab968f8ef5cbe"
+  integrity sha512-fy9v3NgTzBngrMFkDsKEj0r02U7jm6XfC3b52eoNV+GCrGj+s8pt5OqhiJdWKuw51zCTdiNR/IUD1z33LIIGpg==
+
+uuid@8.3.2:
+  version "8.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
+  integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
